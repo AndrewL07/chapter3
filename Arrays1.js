@@ -1,9 +1,19 @@
-//1 & 3?
-let nums = ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
-console.log(nums[0]);
+//1
+function printFirst(arr) {
+    console.log(arr[0])
+}
+
+printFirst([3,12,7,14]);
+printFirst(['a','b','c'])
 
 //2
-console.log(nums[3]);
+function printLast (arr){
+    let lastIndex = arr.length-1
+    console.log(arr[lastIndex]);
+}
+
+printLast([3,12,7,14]);
+printLast(['a','b','c'])
 
 //4
 console.log(nums[3]);
