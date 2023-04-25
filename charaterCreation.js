@@ -47,7 +47,15 @@ function createChar(character, list){
     character.wisdom = rollStat(list);
     console.log("Rolling CHA");
     character.charisma = rollStat(list);
+    console.log("Rolling CHE");
+    character.Chemistryknowledge = rollStat(list);
+    console.log("Rolling DK");
+    character.drugknowledge = rollStat(list);
+    console.log("Rolling GK");
+    character.gunknowledge = rollStat(list);
     console.log(character)
+
+
 }
 
 function displayChar(char) {
@@ -59,5 +67,8 @@ function displayChar(char) {
     console.log(`Name: ${char.intelligence}`);
     console.log(`Name: ${char.wisdom}`);
     console.log(`Name: ${char.charisma}`);
+    console.log(`Name: ${char.Chemistryknowledge}`);
+    console.log(`Name: ${char.drugknowledge}`);
+    console.log(`Name: ${char.gunknowledge}`);
 
 }
